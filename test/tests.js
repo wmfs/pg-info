@@ -2,7 +2,7 @@
 
 'use strict'
 
-const HlPgClient = require('hl-pg-client')
+const HlPgClient = require('@wmfs/hl-pg-client')
 const process = require('process')
 const path = require('path')
 const pgInfo = require('./../lib')
