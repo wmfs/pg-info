@@ -64,7 +64,7 @@ describe('Run the basic-usage example', function () {
       })
         .then(info => {
           try {
-            expect(info).to.containSubset({schemas: expectedSchemas})
+            expect(info).to.containSubset({ schemas: expectedSchemas })
             done()
           } catch (err) {
             done(err)
