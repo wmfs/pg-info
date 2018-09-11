@@ -1,0 +1,41 @@
+# [1.1.0](https://github.com/wmfs/pg-info/compare/v1.0.2...v1.1.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 3.1.0 to 3.2.0 ([ffcd2f2](https://github.com/wmfs/pg-info/commit/ffcd2f2))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement to 2.1.2 ([696de49](https://github.com/wmfs/pg-info/commit/696de49))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement to 3.0.0 ([b1cd0f5](https://github.com/wmfs/pg-info/commit/b1cd0f5))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.1 to 7.0.2 ([c7ea09c](https://github.com/wmfs/pg-info/commit/c7ea09c))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.2 to 7.0.3 ([383ac94](https://github.com/wmfs/pg-info/commit/383ac94))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement to 6.0.2 ([a5e0c73](https://github.com/wmfs/pg-info/commit/a5e0c73))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement to 7.0.0 ([0af615c](https://github.com/wmfs/pg-info/commit/0af615c))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement to 7.0.1 ([d778318](https://github.com/wmfs/pg-info/commit/d778318))
+* **deps-dev:** update codecov requirement from 3.0.4 to 3.1.0 ([655177d](https://github.com/wmfs/pg-info/commit/655177d))
+* **deps-dev:** update nyc requirement from 12.0.2 to 13.0.1 ([55a685b](https://github.com/wmfs/pg-info/commit/55a685b))
+* **deps-dev:** update semantic-release requirement ([c3080ef](https://github.com/wmfs/pg-info/commit/c3080ef))
+* **deps-dev:** update semantic-release requirement ([845d097](https://github.com/wmfs/pg-info/commit/845d097))
+* **deps-dev:** update semantic-release requirement from 15.9.11 to 15.9.12 ([bb9083b](https://github.com/wmfs/pg-info/commit/bb9083b))
+* **deps-dev:** update semantic-release requirement from 15.9.3 to 15.9.5 ([8736495](https://github.com/wmfs/pg-info/commit/8736495))
+* **deps-dev:** update semantic-release requirement from 15.9.5 to 15.9.6 ([284bfac](https://github.com/wmfs/pg-info/commit/284bfac))
+* **deps-dev:** update semantic-release requirement from 15.9.6 to 15.9.7 ([7f7d645](https://github.com/wmfs/pg-info/commit/7f7d645))
+* **deps-dev:** update semantic-release requirement from 15.9.7 to 15.9.8 ([060821d](https://github.com/wmfs/pg-info/commit/060821d))
+* **deps-dev:** update semantic-release requirement from 15.9.8 to 15.9.9 ([85dab22](https://github.com/wmfs/pg-info/commit/85dab22))
+* **deps-dev:** update semantic-release requirement from 15.9.9 to 15.9.11 ([b85d478](https://github.com/wmfs/pg-info/commit/b85d478))
+* **deps-dev:** update semantic-release requirement to 15.7.2 ([827006b](https://github.com/wmfs/pg-info/commit/827006b))
+* **deps-dev:** update semantic-release requirement to 15.8.0 ([8a07012](https://github.com/wmfs/pg-info/commit/8a07012))
+* **deps-dev:** update semantic-release requirement to 15.8.1 ([a31bba8](https://github.com/wmfs/pg-info/commit/a31bba8))
+* **deps-dev:** update semantic-release requirement to 15.9.1 ([9445f58](https://github.com/wmfs/pg-info/commit/9445f58))
+* **deps-dev:** update semantic-release requirement to 15.9.2 ([2311db1](https://github.com/wmfs/pg-info/commit/2311db1))
+* **deps-dev:** update semantic-release requirement to 15.9.3 ([85f7d83](https://github.com/wmfs/pg-info/commit/85f7d83))
+* **dev-deps:** move to standard 12.0.1 ([4de0602](https://github.com/wmfs/pg-info/commit/4de0602))
+
+
+### ⚙️ Continuous Integrations
+
+* remove deps-dev scoping release ([83be554](https://github.com/wmfs/pg-info/commit/83be554))
+
+
+### ♻️ Chores
+
+* codecvt 3.0.3 -> 3.0.4 ([02b15b3](https://github.com/wmfs/pg-info/commit/02b15b3))
