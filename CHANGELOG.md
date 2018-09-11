@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/pg-info/compare/v1.4.0...v1.5.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 4.0.0 to 4.0.1 ([f9dd2b2](https://github.com/wmfs/pg-info/commit/f9dd2b2))
+
 # [1.4.0](https://github.com/wmfs/pg-info/compare/v1.3.0...v1.4.0) (2018-09-11)
 
 
