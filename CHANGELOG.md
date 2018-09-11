@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/wmfs/pg-info/compare/v1.1.0...v1.2.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 3.2.0 to 3.2.2 ([d2ffd89](https://github.com/wmfs/pg-info/commit/d2ffd89))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([2fbdd26](https://github.com/wmfs/pg-info/commit/2fbdd26))
+
 # [1.1.0](https://github.com/wmfs/pg-info/compare/v1.0.2...v1.1.0) (2018-09-11)
 
 
