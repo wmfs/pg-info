@@ -1,3 +1,13 @@
+# [1.6.0](https://github.com/wmfs/pg-info/compare/v1.5.0...v1.6.0) (2018-09-12)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.10 to 4.17.11 ([0fa6206](https://github.com/wmfs/pg-info/commit/0fa6206))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([975ba3a](https://github.com/wmfs/pg-info/commit/975ba3a))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([5a88d04](https://github.com/wmfs/pg-info/commit/5a88d04))
+* **deps-dev:** update semantic-release requirement ([93c0219](https://github.com/wmfs/pg-info/commit/93c0219))
+
 # [1.5.0](https://github.com/wmfs/pg-info/compare/v1.4.0...v1.5.0) (2018-09-11)
 
 
