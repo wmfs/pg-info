@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/wmfs/pg-info/compare/v1.6.0...v1.7.0) (2018-10-08)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 4.0.1 to 4.1.0 ([abce6a7](https://github.com/wmfs/pg-info/commit/abce6a7))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([c129f25](https://github.com/wmfs/pg-info/commit/c129f25))
+* **deps-dev:** update chai requirement from 4.1.2 to 4.2.0 ([981302d](https://github.com/wmfs/pg-info/commit/981302d))
+* **deps-dev:** update semantic-release requirement ([0c0d7d4](https://github.com/wmfs/pg-info/commit/0c0d7d4))
+* **deps-dev:** update semantic-release requirement ([0464e44](https://github.com/wmfs/pg-info/commit/0464e44))
+* **dev-deps:** Update codecvt 3.0.4 -> 3.1.0 ([d4f5e4e](https://github.com/wmfs/pg-info/commit/d4f5e4e))
+
 # [1.6.0](https://github.com/wmfs/pg-info/compare/v1.5.0...v1.6.0) (2018-09-12)
 
 
