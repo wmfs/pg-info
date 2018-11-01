@@ -1,3 +1,19 @@
+# [1.8.0](https://github.com/wmfs/pg-info/compare/v1.7.0...v1.8.0) (2018-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update boom requirement from 7.2.0 to 7.2.1 ([73e70e3](https://github.com/wmfs/pg-info/commit/73e70e3))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([bd6cc88](https://github.com/wmfs/pg-info/commit/bd6cc88))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([13f2574](https://github.com/wmfs/pg-info/commit/13f2574))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([c223958](https://github.com/wmfs/pg-info/commit/c223958))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([cc26061](https://github.com/wmfs/pg-info/commit/cc26061))
+* **deps-dev:** update nyc requirement from 13.0.1 to 13.1.0 ([de4b57b](https://github.com/wmfs/pg-info/commit/de4b57b))
+* **deps-dev:** update semantic-release requirement ([79d9eb4](https://github.com/wmfs/pg-info/commit/79d9eb4))
+* **deps-dev:** update semantic-release requirement ([0c5ce45](https://github.com/wmfs/pg-info/commit/0c5ce45))
+* **deps-dev:** update semantic-release requirement ([5bd0956](https://github.com/wmfs/pg-info/commit/5bd0956))
+* **deps-dev:** update semantic-release requirement ([a268ee2](https://github.com/wmfs/pg-info/commit/a268ee2))
+
 # [1.7.0](https://github.com/wmfs/pg-info/compare/v1.6.0...v1.7.0) (2018-10-08)
 
 
