@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/wmfs/pg-info/compare/v1.8.0...v1.9.0) (2018-11-03)
+
+
+### 🛠 Builds
+
+* **deps:** update boom requirement from 7.2.1 to 7.2.2 ([83ccafd](https://github.com/wmfs/pg-info/commit/83ccafd))
+* **deps-dev:** update semantic-release requirement ([b010b7e](https://github.com/wmfs/pg-info/commit/b010b7e))
+
 # [1.8.0](https://github.com/wmfs/pg-info/compare/v1.7.0...v1.8.0) (2018-11-01)
 
 
