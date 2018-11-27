@@ -21,7 +21,7 @@ $ npm install pg-info --save
 
 ```javascript
 const pg = require('pg')
-const pgInfo = require('pg-info')
+const pgInfo = require('@wmfs/pg-info')
 
 // Make a new Postgres client
 const client = new pg.Client('postgres://postgres:postgres@localhost:5432/my_test_db')
