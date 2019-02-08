@@ -1,3 +1,27 @@
+# [1.10.0](https://github.com/wmfs/pg-info/compare/v1.9.0...v1.10.0) (2019-02-08)
+
+
+### 🛠 Builds
+
+* **deps:** Update debug requirement from 4.1.0 to 4.1.1 ([ef586e6](https://github.com/wmfs/pg-info/commit/ef586e6))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([f4bd2f4](https://github.com/wmfs/pg-info/commit/f4bd2f4))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/git requirement ([fbc3d87](https://github.com/wmfs/pg-info/commit/fbc3d87))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/git requirement ([#82](https://github.com/wmfs/pg-info/issues/82)) ([12d1caa](https://github.com/wmfs/pg-info/commit/12d1caa))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([0ba0fdc](https://github.com/wmfs/pg-info/commit/0ba0fdc))
+* **deps-dev:** Update nyc requirement from 13.1.0 to 13.2.0 ([a8102a2](https://github.com/wmfs/pg-info/commit/a8102a2))
+* **deps-dev:** update semantic-release requirement ([e516041](https://github.com/wmfs/pg-info/commit/e516041))
+* **deps-dev:** update semantic-release requirement ([7cfc996](https://github.com/wmfs/pg-info/commit/7cfc996))
+* **deps-dev:** update semantic-release requirement ([a9d7d86](https://github.com/wmfs/pg-info/commit/a9d7d86))
+* **deps-dev:** update semantic-release requirement ([f7be880](https://github.com/wmfs/pg-info/commit/f7be880))
+* **deps-dev:** update semantic-release requirement ([bb7e180](https://github.com/wmfs/pg-info/commit/bb7e180))
+* **deps-dev:** Update semantic-release requirement ([0ca0671](https://github.com/wmfs/pg-info/commit/0ca0671))
+* **deps-dev:** Update semantic-release requirement ([#80](https://github.com/wmfs/pg-info/issues/80)) ([09c3ff6](https://github.com/wmfs/pg-info/commit/09c3ff6))
+
+
+### 📚 Documentation
+
+* update readme ([f237b42](https://github.com/wmfs/pg-info/commit/f237b42))
+
 # [1.9.0](https://github.com/wmfs/pg-info/compare/v1.8.0...v1.9.0) (2018-11-03)
 
 
