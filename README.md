@@ -1,7 +1,7 @@
 # pg-info
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/pg-info.svg)](https://www.npmjs.com/package/@wmfs/pg-info)
-[![Build Status](https://travis-ci.org/wmfs/pg-info.svg?branch=master)](https://travis-ci.org/wmfs/pg-info)
+[![CircleCI](https://circleci.com/gh/wmfs/pg-info.svg?style=svg)](https://circleci.com/gh/wmfs/pg-info)
 [![codecov](https://codecov.io/gh/wmfs/pg-info/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/pg-info)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/pg-info/badge)](https://www.codefactor.io/repository/github/wmfs/pg-info)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
