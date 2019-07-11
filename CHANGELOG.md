@@ -1,3 +1,24 @@
+# [1.11.0](https://github.com/wmfs/pg-info/compare/v1.10.0...v1.11.0) (2019-07-11)
+
+
+### 🛠 Builds
+
+* **deps:** Update lodash requirement from 4.17.11 to 4.17.14 ([56ce229](https://github.com/wmfs/pg-info/commit/56ce229))
+* **deps-dev:** Update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([f78bd73](https://github.com/wmfs/pg-info/commit/f78bd73))
+* **deps-dev:** Update mocha requirement from 5.2.0 to 6.1.4 ([e845082](https://github.com/wmfs/pg-info/commit/e845082))
+* **deps-dev:** Update nyc requirement from 13.2.0 to 14.1.1 ([d7fd6b4](https://github.com/wmfs/pg-info/commit/d7fd6b4))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([7ed84e8](https://github.com/wmfs/pg-info/commit/7ed84e8))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([3777ad7](https://github.com/wmfs/pg-info/commit/3777ad7))
+* **travis:** Remove Travis config ([c274a43](https://github.com/wmfs/pg-info/commit/c274a43))
+
 # [1.10.0](https://github.com/wmfs/pg-info/compare/v1.9.0...v1.10.0) (2019-02-08)
 
 
