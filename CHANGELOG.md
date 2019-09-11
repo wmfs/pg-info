@@ -1,3 +1,17 @@
+# [1.12.0](https://github.com/wmfs/pg-info/compare/v1.11.0...v1.12.0) (2019-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** Update async requirement from 2.6.1 to 2.6.3 ([754713c](https://github.com/wmfs/pg-info/commit/754713c))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([afcb506](https://github.com/wmfs/pg-info/commit/afcb506))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/git requirement ([9876c05](https://github.com/wmfs/pg-info/commit/9876c05))
+* **deps-dev:** Update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([2ba9624](https://github.com/wmfs/pg-info/commit/2ba9624))
+* **deps-dev:** Update codecov requirement from 3.1.0 to 3.5.0 ([b4a87a3](https://github.com/wmfs/pg-info/commit/b4a87a3))
+* **deps-dev:** Update cz-conventional-changelog requirement ([1283578](https://github.com/wmfs/pg-info/commit/1283578))
+* **deps-dev:** Update mocha requirement from 6.1.4 to 6.2.0 ([722ab77](https://github.com/wmfs/pg-info/commit/722ab77))
+* **deps-dev:** Update semantic-release requirement ([e33e8ce](https://github.com/wmfs/pg-info/commit/e33e8ce))
+
 # [1.11.0](https://github.com/wmfs/pg-info/compare/v1.10.0...v1.11.0) (2019-07-11)
 
 
