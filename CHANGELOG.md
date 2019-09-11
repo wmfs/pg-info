@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wmfs/pg-info/compare/v1.12.0...v1.13.0) (2019-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** Update lodash requirement from 4.17.14 to 4.17.15 ([69dea6a](https://github.com/wmfs/pg-info/commit/69dea6a))
+
 # [1.12.0](https://github.com/wmfs/pg-info/compare/v1.11.0...v1.12.0) (2019-09-11)
 
 
