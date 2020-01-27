@@ -1,3 +1,22 @@
+# [1.14.0](https://github.com/wmfs/pg-info/compare/v1.13.0...v1.14.0) (2020-01-27)
+
+
+### 🛠 Builds
+
+* **deps:** Bump async from 2.6.3 to 3.1.1 ([1fcfaec](https://github.com/wmfs/pg-info/commit/1fcfaec80e2a89ec9536529d80fcb2d464e1e67c))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.13.0 to 1.14.0 ([5342810](https://github.com/wmfs/pg-info/commit/5342810934d1045350d24edd937984e4a9c82e7a))
+* **deps-dev:** Bump codecov from 3.6.1 to 3.6.2 ([25f2ff9](https://github.com/wmfs/pg-info/commit/25f2ff9fe3ea3bb85ba85a0cc7c7d478e8040caa))
+* **deps-dev:** Bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([f31f177](https://github.com/wmfs/pg-info/commit/f31f1770f320211f854495ffe5f90d3ba95327ac))
+* **deps-dev:** Bump mocha from 6.2.2 to 7.0.0 ([3dde576](https://github.com/wmfs/pg-info/commit/3dde5765d9ae60bafa1e970fb3c9c20c2a600c42))
+* **deps-dev:** Bump mocha from 7.0.0 to 7.0.1 ([010c425](https://github.com/wmfs/pg-info/commit/010c425a025bf804f3f46f5b2642b18474ef9103))
+* **deps-dev:** bump packages ([36b4bab](https://github.com/wmfs/pg-info/commit/36b4babf007ddb11463c9cf608e1a3e0375f2fbd))
+* **deps-dev:** Update standard requirement from 12.0.1 to 14.3.1 ([53f6027](https://github.com/wmfs/pg-info/commit/53f60271f05a714e0555fde57f69aa175f9be0c1))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([01a9285](https://github.com/wmfs/pg-info/commit/01a9285fed27579ed85ba43e69dc77c2d5c41cc7))
+
 # [1.13.0](https://github.com/wmfs/pg-info/compare/v1.12.0...v1.13.0) (2019-09-11)
 
 
