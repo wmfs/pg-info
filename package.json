@@ -37,7 +37,7 @@
     "standard": "14.3.1",
     "@semantic-release/changelog": "5.0.0",
     "@semantic-release/git": "9.0.0",
-    "@wmfs/hl-pg-client": "1.17.0"
+    "@wmfs/hl-pg-client": "1.18.0"
   },
   "scripts": {
     "lint": "standard",
