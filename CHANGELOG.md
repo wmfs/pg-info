@@ -1,3 +1,21 @@
+# [1.15.0](https://github.com/wmfs/pg-info/compare/v1.14.0...v1.15.0) (2020-02-26)
+
+
+### 🛠 Builds
+
+* **deps:** Bump async from 3.1.1 to 3.2.0 ([34471af](https://github.com/wmfs/pg-info/commit/34471af7cbdd90da5618cfafb02a2941a9da0a74))
+* **deps-dev:** Bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([1b18b10](https://github.com/wmfs/pg-info/commit/1b18b10310ede8d2332a9ed4a6951629d62e4d82))
+* **deps-dev:** Bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([5c8e101](https://github.com/wmfs/pg-info/commit/5c8e101166f7922c470c4bd391648bcd25e9e51b))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.14.0 to 1.15.0 ([3db7b14](https://github.com/wmfs/pg-info/commit/3db7b143ef59a3db316203ef127a8c171448c983))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.15.0 to 1.16.0 ([f2c10ce](https://github.com/wmfs/pg-info/commit/f2c10ce585da923f35d8ec3eb2145243b3137459))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.16.0 to 1.17.0 ([500e0e5](https://github.com/wmfs/pg-info/commit/500e0e598c7f6ea3cb9f062364f84333dc06e1b2))
+* **deps-dev:** Bump codecov from 3.6.2 to 3.6.3 ([c182c42](https://github.com/wmfs/pg-info/commit/c182c42afd5dd470caf9cbca418614a667868660))
+* **deps-dev:** Bump codecov from 3.6.3 to 3.6.4 ([8044e57](https://github.com/wmfs/pg-info/commit/8044e57545205b418bc037876c894b23d516bad6))
+* **deps-dev:** Bump codecov from 3.6.4 to 3.6.5 ([215a8b5](https://github.com/wmfs/pg-info/commit/215a8b553daf2d25c5ad373dcd5127b6f3814981))
+* **deps-dev:** Bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([1667558](https://github.com/wmfs/pg-info/commit/16675587553b6d882f244cc23abb61353fabdeab))
+* **deps-dev:** Bump semantic-release from 15.14.0 to 17.0.3 ([13f3728](https://github.com/wmfs/pg-info/commit/13f3728862ee50d3bc11d881e9e1b8cb6269f4b8))
+* **deps-dev:** Bump semantic-release from 17.0.3 to 17.0.4 ([54d4ee6](https://github.com/wmfs/pg-info/commit/54d4ee61026258fcd72a1ecf432cdda5ae569d68))
+
 # [1.14.0](https://github.com/wmfs/pg-info/compare/v1.13.0...v1.14.0) (2020-01-27)
 
 
