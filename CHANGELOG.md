@@ -1,3 +1,33 @@
+# [1.16.0](https://github.com/wmfs/pg-info/compare/v1.15.0...v1.16.0) (2020-04-22)
+
+
+### 🛠 Builds
+
+* **deps:** Remove unused async, boom, debug, lodash dependencies ([66d324c](https://github.com/wmfs/pg-info/commit/66d324c31c9fb779827580f8787de5f4fc261f06))
+* **deps-dev:** Bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([a5a2210](https://github.com/wmfs/pg-info/commit/a5a221010b42d9a34dae9927a0ea9ec7f1696b39))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.17.0 to 1.18.0 ([c5e6f35](https://github.com/wmfs/pg-info/commit/c5e6f35a2657ccd973354a3c656f8861b53c1e17))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.18.0 to 1.19.0 ([a55bebb](https://github.com/wmfs/pg-info/commit/a55bebba8a3a9a5f528fb16a91dbc6194ee8d3ca))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.19.0 to 1.20.0 ([7f9daae](https://github.com/wmfs/pg-info/commit/7f9daae5ef55c374a42aa9a50e2723a15a00b583))
+* **deps-dev:** Bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([3d6eb70](https://github.com/wmfs/pg-info/commit/3d6eb70e64af644cf357230a7255ef2b6f1a2858))
+* **deps-dev:** Bump mocha from 7.0.1 to 7.1.0 ([c1afe7c](https://github.com/wmfs/pg-info/commit/c1afe7ce99633f1ebab39ee4a51d6fef40bbe2c7))
+* **deps-dev:** Bump mocha from 7.1.0 to 7.1.1 ([9f3a09d](https://github.com/wmfs/pg-info/commit/9f3a09dbce680f0745ab2cd401771c0dd2883d09))
+* **deps-dev:** Bump nyc from 15.0.0 to 15.0.1 ([0bf8df0](https://github.com/wmfs/pg-info/commit/0bf8df00866625ed8009d535830278b23483a634))
+* **deps-dev:** Bump semantic-release from 17.0.4 to 17.0.5 ([8eb7000](https://github.com/wmfs/pg-info/commit/8eb70006caa13088f899f95a8e4a0040a087506e))
+* **deps-dev:** Bump semantic-release from 17.0.5 to 17.0.6 ([042c0d5](https://github.com/wmfs/pg-info/commit/042c0d534c94bdf44d469ffaa33e6fae55ee64c6))
+* **deps-dev:** Bump semantic-release from 17.0.6 to 17.0.7 ([5383585](https://github.com/wmfs/pg-info/commit/5383585a82789e159b88f80fe862a2f191ac1a68))
+* **deps-dev:** Bump standard from 14.3.1 to 14.3.2 ([be89ab0](https://github.com/wmfs/pg-info/commit/be89ab020ed92e57ac509d0c96eb7790fff43e00))
+* **deps-dev:** Bump standard from 14.3.2 to 14.3.3 ([5240b90](https://github.com/wmfs/pg-info/commit/5240b9065f345af746694c5031430d614f20c03a))
+
+
+### 📚 Documentation
+
+* **README:** Corrected README. pgInfo function is async, no longer takes callback. ([e639a1f](https://github.com/wmfs/pg-info/commit/e639a1f99091b74f465904f177e63fe3a973b1fa))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([33087fd](https://github.com/wmfs/pg-info/commit/33087fdca38cfbea41dd982291f2ad2f2ec5fbe5))
+
 # [1.15.0](https://github.com/wmfs/pg-info/compare/v1.14.0...v1.15.0) (2020-02-26)
 
 
