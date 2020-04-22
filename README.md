@@ -27,20 +27,14 @@ const pgInfo = require('@wmfs/pg-info')
 const client = new pg.Client('postgres://postgres:postgres@localhost:5432/my_test_db')
 client.connect()
 
-pgInfo(
-  {
+const info = await pgInfo({
     client: client,
     schemas: [
       'pginfo_people_test',
       'pginfo_planets_test',
       'pginfo_not_exists'
     ]    
-  },
-  function (err, info) {
-    // Done!
-    // - See below for notes about the 'info' object
-  }
-)
+})
 ```
 
 ## <a name="api"></a>API
