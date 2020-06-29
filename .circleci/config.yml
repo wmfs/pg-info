@@ -3,7 +3,7 @@ jobs:
   test:
     docker:
       # use node:lts
-      - image: circleci/node:lts
+      - image: cimg/node:lts
         environment:
            TZ: "Europe/London"
            PG_CONNECTION_STRING: postgres://postgres:postgres@localhost:5432/circle_test
@@ -27,7 +27,7 @@ jobs:
   release:
     docker:
     # use node:lts
-    - image: circleci/node:lts
+    - image: cimg/node:lts
       environment:
         TZ: "Europe/London"
     working_directory: ~/repo
