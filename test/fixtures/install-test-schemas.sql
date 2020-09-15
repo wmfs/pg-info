@@ -4,11 +4,18 @@ CREATE SCHEMA pginfo_people_test;
 
 COMMENT ON SCHEMA pginfo_people_test IS 'Simple schema created to support testing of the pg-info package!';
 
+CREATE TYPE pginfo_people_test.social_media_links AS (
+  twitter text,
+  facebook text,
+  instagram text
+);
+
 CREATE TABLE pginfo_people_test.people (
   person_no text NOT NULL,
   first_name text NOT NULL,
   last_name text NOT NULL,
   age integer,
+  social pginfo_people_test.social_media_links,
   _created timestamp with time zone NOT NULL DEFAULT now(),
   CONSTRAINT person_pkey PRIMARY KEY (person_no)
 );

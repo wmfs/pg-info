@@ -45,6 +45,15 @@
             "numericScale": 0,
             "comment": "Age in years"
           },
+          "social": {
+            "array": false,
+            "characterMaximumLength": null,
+            "columnDefault": null,
+            "comment": null,
+            "dataType": "social_media_links",
+            "isNullable": "YES",
+            "numericScale": null
+          },
           "_created": {
             "array": false,
             "columnDefault": "now()",
