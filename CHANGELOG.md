@@ -1,3 +1,41 @@
+# [1.17.0](https://github.com/wmfs/pg-info/compare/v1.16.0...v1.17.0) (2020-09-15)
+
+
+### ✨ Features
+
+* Add custom-type support for tables ([4c264f2](https://github.com/wmfs/pg-info/commit/4c264f249a8a4d7cca1a45cb923637f8f5767408))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.20.0 to 1.21.0 ([a91e14c](https://github.com/wmfs/pg-info/commit/a91e14c4383c2f36b33c1bcb589a59a1e5cf7ff1))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.21.0 to 1.22.0 ([b18e876](https://github.com/wmfs/pg-info/commit/b18e876c6b0de1b7c06176aa6f6b27ad228fcc54))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.22.0 to 1.23.0 ([e9b5b6f](https://github.com/wmfs/pg-info/commit/e9b5b6f3b413d9da4ff64cc24892b66c73d725fd))
+* **deps-dev:** Bump codecov from 3.6.5 to 3.7.0 ([03cad50](https://github.com/wmfs/pg-info/commit/03cad50596303894cee02fa94c2f8a0561df2472))
+* **deps-dev:** Bump codecov from 3.7.0 to 3.7.1 ([f5269c1](https://github.com/wmfs/pg-info/commit/f5269c1dccd29945b46be7a00d8392856e5cd11a))
+* **deps-dev:** Bump codecov from 3.7.1 to 3.7.2 ([d21726f](https://github.com/wmfs/pg-info/commit/d21726f63dba0cd357891fddc3314a42521951cc))
+* **deps-dev:** Bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([49176b1](https://github.com/wmfs/pg-info/commit/49176b1225b8f5b6aa3f76d2037c0278c86f6910))
+* **deps-dev:** Bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([a5ce41d](https://github.com/wmfs/pg-info/commit/a5ce41d7a54901c6ea7ef261555f7c2323071daf))
+* **deps-dev:** Bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([e097cbb](https://github.com/wmfs/pg-info/commit/e097cbb4fdcb65d12d9d8189427bb7a4123dde6c))
+* **deps-dev:** Bump mocha from 7.1.1 to 7.1.2 ([ed1ddf7](https://github.com/wmfs/pg-info/commit/ed1ddf7d807c612e19822520a7b68b1eec860c63))
+* **deps-dev:** Bump mocha from 7.1.2 to 7.2.0 ([df8f116](https://github.com/wmfs/pg-info/commit/df8f116f31539d02110677912fbd2f3941b1ccd0))
+* **deps-dev:** Bump mocha from 7.2.0 to 8.0.1 ([f530dee](https://github.com/wmfs/pg-info/commit/f530dee06efb28ddd5c105c6201213c14faa3430))
+* **deps-dev:** Bump mocha from 8.0.1 to 8.1.0 ([4afae2e](https://github.com/wmfs/pg-info/commit/4afae2ed7a835852c1fb00339a17f2171387ef0d))
+* **deps-dev:** Bump mocha from 8.1.0 to 8.1.1 ([c0f225e](https://github.com/wmfs/pg-info/commit/c0f225e7ef774e30677d2583f76b9545c9c4cfc3))
+* **deps-dev:** Bump mocha from 8.1.1 to 8.1.2 ([31e3af7](https://github.com/wmfs/pg-info/commit/31e3af7899fd714ddbf5d685a599473008c0cfca))
+* **deps-dev:** Bump mocha from 8.1.2 to 8.1.3 ([390c7eb](https://github.com/wmfs/pg-info/commit/390c7eb2792a8a909cfea57f9189dd80c82dc818))
+* **deps-dev:** Bump nyc from 15.0.1 to 15.1.0 ([acf065c](https://github.com/wmfs/pg-info/commit/acf065c8b852e3c002414d47102f8f985cb4097d))
+* **deps-dev:** Bump semantic-release from 17.0.7 to 17.0.8 ([a3ee46c](https://github.com/wmfs/pg-info/commit/a3ee46c91a9eac12e759909e3ed922aa7a706f41))
+* **deps-dev:** Bump semantic-release from 17.0.8 to 17.1.0 ([4337629](https://github.com/wmfs/pg-info/commit/43376299caba30914d155b88fecf42a5db413f83))
+* **deps-dev:** Bump semantic-release from 17.1.0 to 17.1.1 ([a2e53f0](https://github.com/wmfs/pg-info/commit/a2e53f081fd77707d2be800c45a3b74ce41fbba8))
+* **deps-dev:** Bump standard from 14.3.3 to 14.3.4 ([1410799](https://github.com/wmfs/pg-info/commit/1410799e2e00fff6f90645ff5407520b70a3d7db))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([f98e72f](https://github.com/wmfs/pg-info/commit/f98e72f64450db05cd45d7c9d07f6bff85082770))
+* **circle:** use updated circle node image [skip ci] ([d1eaff3](https://github.com/wmfs/pg-info/commit/d1eaff3cd38fbd651df02929bdbeffb67a0233e3))
+
 # [1.16.0](https://github.com/wmfs/pg-info/compare/v1.15.0...v1.16.0) (2020-04-22)
 
 
