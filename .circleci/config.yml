@@ -8,7 +8,7 @@ jobs:
            TZ: "Europe/London"
            PG_CONNECTION_STRING: postgres://postgres:postgres@localhost:5432/circle_test
       # use postgres 9.6
-      - image: circleci/postgres:9.6-alpine-postgis
+      - image: circleci/postgres:9.6-alpine-postgis-ram
         environment:
           POSTGRES_USER: postgres
           POSTGRES_DB: circle_test
