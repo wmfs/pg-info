@@ -61,6 +61,8 @@ __In summary, the structure of the output is:__
             * `index` object(s)
             * `trigger` object(s)           
             * `fkConstraint` object(s)
+        * `view` object(s)
+            * `column` object(s)
  
 ### `info` object
 
@@ -99,6 +101,7 @@ __Properties__
 | `comment` | `string` | The database comment added for this schema, if available |
 | `schemaExistsInDatabase` | `boolean` | Indicates if this schema is present in the database or not |
 | `tables` | `object` | An object where the key refers to a table name within this schema, and the value is a `table` object |
+| `views` | `object` | An object where the key refers to a view name within this schema, and the value is a `view` object |
 
 ### `table` object
 
@@ -125,6 +128,26 @@ __Properties__
 | `columns` | `object` | An object where the key refers to a column name within this table, and the value is a `column` object |
 | `indexes` | `object` | An object where the key refers to an index name defined for this table, and the value is an `index` object |
 | `fkConstraints` | `object` | An object where the key refers to a foreign-key constraint name defined for this table, and the value is a `fkConstraint` object |
+
+### `view` object
+
+__Example__
+
+```javascript
+{
+  columns: {...}, // Keys are column names
+  comment: 'View of just those planets in our solar system',
+  sql: 'SELECT * FROM my_schema.planets WHERE solar_system = true;'
+}
+```
+
+__Properties__
+
+| property | Type | Notes |
+| -------- | ---- | ----- |
+| `columns` | `object` | An object where the key refers to a column name within this view, and the value is a `column` object |
+| `sql` | `string` |  The underlying SQL query of this view |
+| `comment` | `string` |  The database comment added for this table, if available |
 
 ### `column` object
 
