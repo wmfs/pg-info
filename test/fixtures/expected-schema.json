@@ -111,6 +111,15 @@
             "comment": null
           }
         },
+        "triggers": {
+          "insert_productview_trig": {
+            "eventManipulation": "INSERT",
+            "actionCondition": null,
+            "actionStatement": "EXECUTE PROCEDURE pginfo_people_test.insert_peeps_trg_func()",
+            "actionOrientation": "ROW",
+            "actionTiming": "INSTEAD OF"
+          }
+        },
         "comment": "A pretty pointless view!",
         "sql": "SELECT people.person_no, concat(people.first_name, ' ', people.last_name) AS name FROM pginfo_people_test.people;"
       }
