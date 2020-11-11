@@ -1,3 +1,15 @@
+# [1.19.0](https://github.com/wmfs/pg-info/compare/v1.18.0...v1.19.0) (2020-11-11)
+
+
+### ✨ Features
+
+* Add support for view-triggers ([1c2d132](https://github.com/wmfs/pg-info/commit/1c2d13213c07237cf14bd2efd16b35836195cf87))
+
+
+### 📚 Documentation
+
+* Mention table/view triggers ([0cda892](https://github.com/wmfs/pg-info/commit/0cda892e4bc425459db744fc8395224af40af639))
+
 # [1.18.0](https://github.com/wmfs/pg-info/compare/v1.17.0...v1.18.0) (2020-11-11)
 
 
