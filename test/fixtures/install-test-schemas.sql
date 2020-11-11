@@ -31,6 +31,20 @@ CREATE OR REPLACE VIEW pginfo_people_test.peeps AS
 
 COMMENT ON VIEW pginfo_people_test.peeps IS 'A pretty pointless view!';
 
+CREATE OR REPLACE FUNCTION pginfo_people_test.insert_peeps_trg_func() RETURNS trigger AS
+$BODY$
+BEGIN
+  RETURN new;
+END;
+$BODY$
+LANGUAGE plpgsql;
+
+CREATE TRIGGER insert_productview_trig
+  INSTEAD OF INSERT
+  ON pginfo_people_test.peeps
+  FOR EACH ROW
+  EXECUTE PROCEDURE pginfo_people_test.insert_peeps_trg_func();
+
 CREATE INDEX people_age_idx ON pginfo_people_test.people (age);
 CREATE INDEX people_first_name_last_name_idx ON pginfo_people_test.people (first_name, last_name);
 
