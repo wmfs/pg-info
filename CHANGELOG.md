@@ -1,3 +1,41 @@
+# [1.18.0](https://github.com/wmfs/pg-info/compare/v1.17.0...v1.18.0) (2020-11-11)
+
+
+### ✨ Features
+
+* Add support for view comments ([3c25f32](https://github.com/wmfs/pg-info/commit/3c25f329f86f7782a248bf5142e52c39e1838e2c))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.23.0 to 1.25.0 ([85cc604](https://github.com/wmfs/pg-info/commit/85cc6046b084780b06cf9f4456b68ed640530d5c))
+* **deps-dev:** Bump codecov from 3.7.2 to 3.8.0 ([0fa5edb](https://github.com/wmfs/pg-info/commit/0fa5edb5b17893afa4c8fc1416afe354773fa052))
+* **deps-dev:** Bump codecov from 3.8.0 to 3.8.1 ([fd11c34](https://github.com/wmfs/pg-info/commit/fd11c3474fc7b22edb15b893f844ed40f99da0d6))
+* **deps-dev:** Bump mocha from 8.1.3 to 8.2.0 ([c74ef2b](https://github.com/wmfs/pg-info/commit/c74ef2b726df64dfb6491f5731c562a47b40d97e))
+* **deps-dev:** Bump mocha from 8.2.0 to 8.2.1 ([1fff402](https://github.com/wmfs/pg-info/commit/1fff402fb1e3c989bc7ee12d838dcb76b418a145))
+* **deps-dev:** Bump semantic-release from 17.1.1 to 17.1.2 ([74aa244](https://github.com/wmfs/pg-info/commit/74aa244a9ad913d7b2e575308f0f37d5db195724))
+* **deps-dev:** Bump semantic-release from 17.1.2 to 17.2.0 ([1d6f6a3](https://github.com/wmfs/pg-info/commit/1d6f6a30f0be3a3f83be5d7a4a60ebfbb5e80553))
+* **deps-dev:** Bump semantic-release from 17.2.0 to 17.2.1 ([2e762a5](https://github.com/wmfs/pg-info/commit/2e762a51d734304e35275c693688408632b61415))
+* **deps-dev:** Bump semantic-release from 17.2.1 to 17.2.2 ([26f996d](https://github.com/wmfs/pg-info/commit/26f996d909cb281ff98bf25fca00b1f626710027))
+* **deps-dev:** Bump standard from 14.3.4 to 15.0.0 ([008ccd4](https://github.com/wmfs/pg-info/commit/008ccd478b5980c2e4674713b0657e029e5b74f9))
+* **deps-dev:** Bump standard from 15.0.0 to 15.0.1 ([9b97022](https://github.com/wmfs/pg-info/commit/9b97022e1ce9f87b7e7fa8dfcf2252de888229d7))
+* **deps-dev:** Bump standard from 15.0.1 to 16.0.0 ([518b1bc](https://github.com/wmfs/pg-info/commit/518b1bc6ff825e346a6add3440dc1ba69442394b))
+* **deps-dev:** Bump standard from 16.0.0 to 16.0.1 ([3f034b7](https://github.com/wmfs/pg-info/commit/3f034b7e5c6cc2beed5bc4acdbaa4e0d2f7e8e5e))
+
+
+### 📚 Documentation
+
+* Include view docs and example ([d20ba1a](https://github.com/wmfs/pg-info/commit/d20ba1aa1c68cf781305053bbeced3aeb6d85e7d))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([caf6bda](https://github.com/wmfs/pg-info/commit/caf6bdae71c839fd160561542d296711c0d2f5e8))
+* **circle:** cache dependencies [ch2770] ([f0ee4aa](https://github.com/wmfs/pg-info/commit/f0ee4aacf560a08182019d8f71890fb15a4de377))
+* **circle:** separate linting job [ch1009] ([a616ff9](https://github.com/wmfs/pg-info/commit/a616ff9955329563862c1ebebe2d862bc3688ee6))
+* **circle:** update build environment variable context name [ch2771] ([206b31f](https://github.com/wmfs/pg-info/commit/206b31f17925c13d89204aa6a569a7f76a5dcdfe))
+* **circle:** use tmpfs postgres image [ch2769] ([871bf71](https://github.com/wmfs/pg-info/commit/871bf71410d3a3f6d38ac336cd2f0019078170bf))
+
 # [1.17.0](https://github.com/wmfs/pg-info/compare/v1.16.0...v1.17.0) (2020-09-15)
 
 
