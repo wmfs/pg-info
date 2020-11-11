@@ -63,6 +63,7 @@ __In summary, the structure of the output is:__
             * `fkConstraint` object(s)
         * `view` object(s)
             * `column` object(s)
+            * `trigger` object(s)
  
 ### `info` object
 
@@ -114,6 +115,7 @@ __Example__
     'planet_name'
   ],
   columns: {...}, // Keys are column names
+  triggers: {...}, // Keys are trigger names
   indexes: {...}, // Keys are index names
   fkConstraints: {...} // Keys are foreign key constraint names
 }
@@ -127,6 +129,7 @@ __Properties__
 | `pkColumnNames` | `[string]` | An array of column names that define this table's primary key |
 | `columns` | `object` | An object where the key refers to a column name within this table, and the value is a `column` object |
 | `indexes` | `object` | An object where the key refers to an index name defined for this table, and the value is an `index` object |
+| `triggers` | `object` | An object where the key refers to a trigger name within this table, and the value is a `trigger` object |
 | `fkConstraints` | `object` | An object where the key refers to a foreign-key constraint name defined for this table, and the value is a `fkConstraint` object |
 
 ### `view` object
@@ -136,6 +139,7 @@ __Example__
 ```javascript
 {
   columns: {...}, // Keys are column names
+  triggers: {...}, // Keys are trigger names
   comment: 'View of just those planets in our solar system',
   sql: 'SELECT * FROM my_schema.planets WHERE solar_system = true;'
 }
@@ -146,8 +150,9 @@ __Properties__
 | property | Type | Notes |
 | -------- | ---- | ----- |
 | `columns` | `object` | An object where the key refers to a column name within this view, and the value is a `column` object |
+| `triggers` | `object` | An object where the key refers to a trigger name within this view, and the value is a `trigger` object |
 | `sql` | `string` |  The underlying SQL query of this view |
-| `comment` | `string` |  The database comment added for this table, if available |
+| `comment` | `string` |  The database comment added for this view, if available |
 
 ### `column` object
 
