@@ -20,14 +20,16 @@ CREATE TABLE pginfo_people_test.people (
   CONSTRAINT person_pkey PRIMARY KEY (person_no)
 );
 
-CREATE OR REPLACE VIEW pginfo_people_test.peeps AS
-  SELECT person_no, CONCAT(first_name, ' ', last_name) AS name
-  FROM pginfo_people_test.people;
-
 COMMENT ON TABLE pginfo_people_test.people IS 'Isn''t this just a list of people?';
 COMMENT ON COLUMN pginfo_people_test.people.first_name IS 'Person''s first name';
 COMMENT ON COLUMN pginfo_people_test.people.age IS 'Age in years';
 COMMENT ON COLUMN pginfo_people_test.people._created IS 'Timestamp for when this record was created';
+
+CREATE OR REPLACE VIEW pginfo_people_test.peeps AS
+  SELECT person_no, CONCAT(first_name, ' ', last_name) AS name
+  FROM pginfo_people_test.people;
+
+COMMENT ON VIEW pginfo_people_test.peeps IS 'A pretty pointless view!';
 
 CREATE INDEX people_age_idx ON pginfo_people_test.people (age);
 CREATE INDEX people_first_name_last_name_idx ON pginfo_people_test.people (first_name, last_name);

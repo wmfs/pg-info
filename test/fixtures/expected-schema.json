@@ -111,6 +111,7 @@
             "comment": null
           }
         },
+        "comment": "A pretty pointless view!",
         "sql": "SELECT people.person_no, concat(people.first_name, ' ', people.last_name) AS name FROM pginfo_people_test.people;"
       }
     }
