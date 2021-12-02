@@ -86,7 +86,12 @@
           }
         },
         "triggers": {},
-        "fkConstraints": {}
+        "fkConstraints": {},
+        "functions": {
+          "insert_peeps_trg_func": {
+            "dataType": "trigger"
+          }
+        }
       }
     },
     "views": {
@@ -115,7 +120,7 @@
           "insert_productview_trig": {
             "eventManipulation": "INSERT",
             "actionCondition": null,
-            "actionStatement": "EXECUTE PROCEDURE pginfo_people_test.insert_peeps_trg_func()",
+            "actionStatement": "EXECUTE FUNCTION pginfo_people_test.insert_peeps_trg_func()",
             "actionOrientation": "ROW",
             "actionTiming": "INSTEAD OF"
           }
@@ -382,7 +387,7 @@
           "new_craters_trigger": {
             "eventManipulation": "INSERT",
             "actionCondition": null,
-            "actionStatement": "EXECUTE PROCEDURE pginfo_planets_test.append_inserted_craters_row()",
+            "actionStatement": "EXECUTE FUNCTION pginfo_planets_test.append_inserted_craters_row()",
             "actionOrientation": "STATEMENT",
             "actionTiming": "BEFORE"
           }
