@@ -10,7 +10,7 @@ jobs:
           TZ: "Europe/London"
           PG_CONNECTION_STRING: postgres://postgres:postgres@localhost:5432/circle_test
           TIMEOUT: 15000
-      - image: cimg/postgres:15.0-postgis
+      - image: cimg/postgres:15.1-postgis
         environment:
           POSTGRES_USER: postgres
           POSTGRES_DB: circle_test
