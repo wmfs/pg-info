@@ -25,7 +25,7 @@ describe('Run the basic-usage example', function () {
   let client
 
   before(function () {
-    if (process.env.PG_CONNECTION_STRING && !/^postgres:\/\/[^:]+:[^@]+@(?:localhost|127\.0\.0\.1).*$/.test(process.env.PG_CONNECTION_STRING)) {
+    if (process.env.PG_CONNECTION_STRING && !/^postgres:\/\/[^:]+:(.)*(?:localhost|127\.0\.0\.1).*$/.test(process.env.PG_CONNECTION_STRING)) {
       console.log(`Skipping tests due to unsafe PG_CONNECTION_STRING value (${process.env.PG_CONNECTION_STRING})`)
       this.skip()
     }
@@ -46,7 +46,7 @@ describe('Run the basic-usage example', function () {
     it('get database info (callback)', function (done) {
       pgInfo(
         {
-          client: client,
+          client,
           schemas: schemaNames
         },
         function (err, info) {
@@ -59,7 +59,7 @@ describe('Run the basic-usage example', function () {
 
     it('get database info (promise)', (done) => {
       pgInfo({
-        client: client,
+        client,
         schemas: schemaNames
       })
         .then(info => {
@@ -75,7 +75,7 @@ describe('Run the basic-usage example', function () {
 
     it('get database info (await)', async () => {
       const info = await pgInfo({
-        client: client,
+        client,
         schemas: schemaNames
       })
 
