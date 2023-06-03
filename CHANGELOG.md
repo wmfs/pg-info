@@ -1,3 +1,119 @@
+# [1.20.0](https://github.com/wmfs/pg-info/compare/v1.19.0...v1.20.0) (2023-06-03)
+
+
+### ✨ Features
+
+* Add order-by clauses to DB queries ([f61262b](https://github.com/wmfs/pg-info/commit/f61262b7bb0eef681aa8ff2874227e5cae2078cf))
+
+
+### 🐛 Bug Fixes
+
+* Allow '@' in test connection-string password ([f278ac5](https://github.com/wmfs/pg-info/commit/f278ac5f596858b7c27b0ebd9797daafdbb38ce8))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.25.0 to 1.26.0 ([488e1dd](https://github.com/wmfs/pg-info/commit/488e1dda4d2bbf2ebd1825b012a6ea2f8da7107e))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.26.0 to 1.27.0 ([120a455](https://github.com/wmfs/pg-info/commit/120a455b4480cfa1cce85a78c69545145beedeab))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.27.0 to 1.28.0 ([b1bd72c](https://github.com/wmfs/pg-info/commit/b1bd72cd20119bafd3123396a194985256029e5f))
+* **deps-dev:** Bump chai from 4.2.0 to 4.3.0 ([6eb31a2](https://github.com/wmfs/pg-info/commit/6eb31a2d5a8a551bd788859ad0f8b7d699f25651))
+* **deps-dev:** Bump chai from 4.3.0 to 4.3.1 ([8835de0](https://github.com/wmfs/pg-info/commit/8835de0b228c84579548513c15f046261b29274b))
+* **deps-dev:** Bump chai from 4.3.1 to 4.3.2 ([33b2868](https://github.com/wmfs/pg-info/commit/33b286835be4ea56c89aba24ee35e3b7ffa68f99))
+* **deps-dev:** Bump chai from 4.3.2 to 4.3.3 ([08a0a3d](https://github.com/wmfs/pg-info/commit/08a0a3d9c2b87733bea37d9af8a72d2edf493d7a))
+* **deps-dev:** Bump chai from 4.3.3 to 4.3.4 ([24d3594](https://github.com/wmfs/pg-info/commit/24d35943d89691098367703f6e62e46630460d64))
+* **deps-dev:** Bump codecov from 3.8.1 to 3.8.2 ([f9bbe56](https://github.com/wmfs/pg-info/commit/f9bbe56b117c979be5d9af7ab69cc6e475a2d258))
+* **deps-dev:** Bump codecov from 3.8.2 to 3.8.3 ([5546dcd](https://github.com/wmfs/pg-info/commit/5546dcdd5194069bed40af4aba14aec2eb823798))
+* **deps-dev:** Bump mocha from 8.2.1 to 8.3.0 ([86fcbfa](https://github.com/wmfs/pg-info/commit/86fcbfa9ca4190c5d83d451df8677057ce0c9bd0))
+* **deps-dev:** Bump mocha from 8.3.0 to 8.3.1 ([2510592](https://github.com/wmfs/pg-info/commit/25105920613f403bc8c404141d2accbafe9cc137))
+* **deps-dev:** Bump mocha from 8.3.1 to 8.3.2 ([9a879bf](https://github.com/wmfs/pg-info/commit/9a879bf1bf5a5562475abc79599ac0c1ceb88f21))
+* **deps-dev:** Bump mocha from 8.3.2 to 8.4.0 ([f5dc72e](https://github.com/wmfs/pg-info/commit/f5dc72e657d4e4258ae2b8a963e993060d821cb1))
+* **deps-dev:** Bump mocha from 8.4.0 to 9.0.0 ([416eaa7](https://github.com/wmfs/pg-info/commit/416eaa7575b0798ccc7186ba407d65cc3a83da9f))
+* **deps-dev:** Bump mocha from 9.0.0 to 9.0.1 ([45f673e](https://github.com/wmfs/pg-info/commit/45f673edfe27979603b013b9759385902d33c2f9))
+* **deps-dev:** Bump mocha from 9.0.1 to 9.0.2 ([cce9952](https://github.com/wmfs/pg-info/commit/cce9952d4c77b1c1f2a974f04904d1541afcfe96))
+* **deps-dev:** Bump mocha from 9.0.2 to 9.0.3 ([4eccac3](https://github.com/wmfs/pg-info/commit/4eccac336e30d315d328df399e1b74733244c10c))
+* **deps-dev:** Bump semantic-release from 17.2.2 to 17.2.3 ([323228a](https://github.com/wmfs/pg-info/commit/323228a4a9666a991fc64e9e90363ea03fe1f0d3))
+* **deps-dev:** Bump semantic-release from 17.2.3 to 17.2.4 ([8f2a2b0](https://github.com/wmfs/pg-info/commit/8f2a2b0b06b81e82c438298027f10db0649cd891))
+* **deps-dev:** Bump semantic-release from 17.2.4 to 17.3.0 ([219e770](https://github.com/wmfs/pg-info/commit/219e770ed0a62beb43744078f9d93e6a7667fe11))
+* **deps-dev:** Bump semantic-release from 17.3.0 to 17.3.1 ([09ca732](https://github.com/wmfs/pg-info/commit/09ca73259845640b76fff4cf2f2a1f7f7b66bd7b))
+* **deps-dev:** Bump semantic-release from 17.3.1 to 17.3.2 ([397696a](https://github.com/wmfs/pg-info/commit/397696a829f901216256d28bbcbb1c0736815ba6))
+* **deps-dev:** Bump semantic-release from 17.3.2 to 17.3.3 ([afa0fd0](https://github.com/wmfs/pg-info/commit/afa0fd09d120c66e18173274ff0c2964db99cebd))
+* **deps-dev:** Bump semantic-release from 17.3.3 to 17.3.4 ([16411ed](https://github.com/wmfs/pg-info/commit/16411ed002b026b4b31732c4b8fff87fb0b3d29f))
+* **deps-dev:** Bump semantic-release from 17.3.4 to 17.3.5 ([941a827](https://github.com/wmfs/pg-info/commit/941a82711be406614f13acca9a6d18994b26bace))
+* **deps-dev:** Bump semantic-release from 17.3.5 to 17.3.6 ([b526f08](https://github.com/wmfs/pg-info/commit/b526f087104429bb279a8606a7db50050d0b86ed))
+* **deps-dev:** Bump semantic-release from 17.3.6 to 17.3.7 ([44e80ad](https://github.com/wmfs/pg-info/commit/44e80adb424dd0196a6a6610f25be80453b79c67))
+* **deps-dev:** Bump semantic-release from 17.3.7 to 17.3.8 ([14612db](https://github.com/wmfs/pg-info/commit/14612db5d51d712a7ba8d9f6b957f7fd03abb31e))
+* **deps-dev:** Bump semantic-release from 17.3.8 to 17.3.9 ([afe2006](https://github.com/wmfs/pg-info/commit/afe2006ad2ee2bca099e40ff6d4de77f36410e84))
+* **deps-dev:** Bump semantic-release from 17.3.9 to 17.4.0 ([e9e5a43](https://github.com/wmfs/pg-info/commit/e9e5a43d0be28e8f33b46202180abf840d06e6cf))
+* **deps-dev:** Bump semantic-release from 17.4.0 to 17.4.1 ([1867660](https://github.com/wmfs/pg-info/commit/18676608b3774359ac5443aa6072856c134b0e36))
+* **deps-dev:** Bump semantic-release from 17.4.1 to 17.4.2 ([e407aa9](https://github.com/wmfs/pg-info/commit/e407aa9aa6573ca4caf2ca108123c91a935b83c1))
+* **deps-dev:** Bump semantic-release from 17.4.2 to 17.4.3 ([de05dc6](https://github.com/wmfs/pg-info/commit/de05dc627b910bd150d70daa429d8078718fb780))
+* **deps-dev:** Bump semantic-release from 17.4.3 to 17.4.4 ([7aa91ce](https://github.com/wmfs/pg-info/commit/7aa91ce62c3a280c10c24995eed5ac022c33268f))
+* **deps-dev:** Bump standard from 16.0.1 to 16.0.2 ([26b0956](https://github.com/wmfs/pg-info/commit/26b09564b9b4b2082220e0064e259b2b9ba9827a))
+* **deps-dev:** Bump standard from 16.0.2 to 16.0.3 ([0b89f27](https://github.com/wmfs/pg-info/commit/0b89f276bea93a2a067e0fc6e0280284b856e75d))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([72a4026](https://github.com/wmfs/pg-info/commit/72a402699cd32f32219f99674528cd5434514fcd))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([d41bdfd](https://github.com/wmfs/pg-info/commit/d41bdfd01ff0e2e22ddb9cd197dbfc7d845b0c7e))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([e8acff5](https://github.com/wmfs/pg-info/commit/e8acff57dbc2ccb71c7a3b21c86747c87594c712))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([0c9c540](https://github.com/wmfs/pg-info/commit/0c9c54043f232a38dec85cd6f436f822e32a366c))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([6ad0f1e](https://github.com/wmfs/pg-info/commit/6ad0f1e6f1eb999e265bbb28ade5eff89b51782a))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.29.0 ([062c279](https://github.com/wmfs/pg-info/commit/062c2794494f019df40638a2d4996c4e54365ea0))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.30.0 ([cd5084f](https://github.com/wmfs/pg-info/commit/cd5084ff422503eb6e2887ce09e9c918922c453e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.31.0 ([a7611f6](https://github.com/wmfs/pg-info/commit/a7611f63f9fb7d3aa832fa135893f07737034911))
+* **deps-dev:** update dependency chai to v4.3.5 ([0b1f6d9](https://github.com/wmfs/pg-info/commit/0b1f6d91b9db4bb6b56bb1a8a5df7be6fbd96124))
+* **deps-dev:** update dependency chai to v4.3.6 ([c8183e9](https://github.com/wmfs/pg-info/commit/c8183e93a441a67028a1da877ad819c5a48e5558))
+* **deps-dev:** update dependency chai to v4.3.7 ([6a8517f](https://github.com/wmfs/pg-info/commit/6a8517f7a42f2eb3f7a0e367a139ee9872ac9450))
+* **deps-dev:** update dependency mocha to v10 ([e1f8d5f](https://github.com/wmfs/pg-info/commit/e1f8d5fbf8d61327ef146116d7478890b36b686a))
+* **deps-dev:** update dependency mocha to v10.1.0 ([33640f9](https://github.com/wmfs/pg-info/commit/33640f98574d8009e36110beda7e1ee0276ca30d))
+* **deps-dev:** update dependency mocha to v10.2.0 ([63aebbc](https://github.com/wmfs/pg-info/commit/63aebbcc390a3f96eba139035e330d58af494d44))
+* **deps-dev:** update dependency mocha to v9.1.0 ([74c6762](https://github.com/wmfs/pg-info/commit/74c6762a25cdc5a6fb1800daeb2a0ace3da2cfe4))
+* **deps-dev:** update dependency mocha to v9.1.1 ([80ac317](https://github.com/wmfs/pg-info/commit/80ac31780425546c993af68871b9db70078f7918))
+* **deps-dev:** update dependency mocha to v9.1.2 ([b8bc7db](https://github.com/wmfs/pg-info/commit/b8bc7db8309d49c8cfd2886976ec03d9a1e24476))
+* **deps-dev:** update dependency mocha to v9.1.3 ([62e6d37](https://github.com/wmfs/pg-info/commit/62e6d37093a0968a0fc6a4637225c1556b1dd896))
+* **deps-dev:** update dependency mocha to v9.1.4 ([eba1f30](https://github.com/wmfs/pg-info/commit/eba1f30ad0fa63036c1c4d2f436e58e226c10bac))
+* **deps-dev:** update dependency mocha to v9.2.0 ([b00acd1](https://github.com/wmfs/pg-info/commit/b00acd13af9d6317e134674dcd2d4ece6c927558))
+* **deps-dev:** update dependency mocha to v9.2.1 ([4fa558b](https://github.com/wmfs/pg-info/commit/4fa558bbf1681412d69ed2b9f4227478a6c3b710))
+* **deps-dev:** update dependency mocha to v9.2.2 ([88000b4](https://github.com/wmfs/pg-info/commit/88000b41eb1586c73dc78bd135be37a098edcaf5))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([6390f79](https://github.com/wmfs/pg-info/commit/6390f79edaee76cdee8966e0a0359bbe059dd48c))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([273b170](https://github.com/wmfs/pg-info/commit/273b1703d07230ccf6fede1dfaba85da7270ccc3))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([0c8dbff](https://github.com/wmfs/pg-info/commit/0c8dbff9d237c86894a776ae512ac5ea91f849ba))
+* **deps-dev:** update dependency semantic-release to v18 ([c67b931](https://github.com/wmfs/pg-info/commit/c67b931371411d7e902b43333efaeb580bd8a88a))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([65195a2](https://github.com/wmfs/pg-info/commit/65195a21561f9d62a01efb43bf8d099d3f56c10b))
+* **deps-dev:** update dependency semantic-release to v19 ([ef5f633](https://github.com/wmfs/pg-info/commit/ef5f633feb005fd2e8266dc970a44ebff38dda2b))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([763709c](https://github.com/wmfs/pg-info/commit/763709cddcf010e5906f7093ace591eb30933ecc))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([6a0e4d1](https://github.com/wmfs/pg-info/commit/6a0e4d1df6cd8800a2c04e34328147512bc1b6a7))
+* **deps-dev:** update dependency semantic-release to v20 ([472035e](https://github.com/wmfs/pg-info/commit/472035e13163f9dacb999bd3842f2fa6028531eb))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([50699d5](https://github.com/wmfs/pg-info/commit/50699d58aaf8ccb2eb8c597ae47f6e5f2abd5978))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([6e22da4](https://github.com/wmfs/pg-info/commit/6e22da41d52dc2c779f1903478bc68c5a4d1bb69))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([f786ce0](https://github.com/wmfs/pg-info/commit/f786ce0f77e8ad5ff5d46df2079f6c16425bda31))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([7abc771](https://github.com/wmfs/pg-info/commit/7abc771ed4698b005284f64bc3a95062daad1568))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([56d2791](https://github.com/wmfs/pg-info/commit/56d279129fe9e5003cb3055453dab29bf9f5c888))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([1e69862](https://github.com/wmfs/pg-info/commit/1e69862339d72fc6e50623e9b46a1538497085aa))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([8564ea3](https://github.com/wmfs/pg-info/commit/8564ea34b9604b677e926611f066cb24c817c2e2))
+* **deps-dev:** update dependency semantic-release to v21 ([51d3d5e](https://github.com/wmfs/pg-info/commit/51d3d5e089830ede4104678e8121c5f5c744e5df))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([cf5ff51](https://github.com/wmfs/pg-info/commit/cf5ff516e8f77cb0c4e62d4a052287236fe81814))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([4b6ba92](https://github.com/wmfs/pg-info/commit/4b6ba924296b1b1f6a6431fe09f174d146cb69a5))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([623f205](https://github.com/wmfs/pg-info/commit/623f20505b9df510a7f606ef487447979896e0fc))
+* **deps-dev:** update dependency standard to v16.0.4 ([d01dae0](https://github.com/wmfs/pg-info/commit/d01dae0f12ba6ab573fb7c126e2437d7f9f5d12e))
+* **deps-dev:** update dependency standard to v17 ([f1f8948](https://github.com/wmfs/pg-info/commit/f1f89486dcdcaecc1170f7d71eea08592b643749))
+* **deps-dev:** update semantic-release monorepo ([3967012](https://github.com/wmfs/pg-info/commit/3967012f8cf06ee8daff0033d58e33481d56ad6c))
+
+
+### 🚨 Tests
+
+* update expected schema ([662aa82](https://github.com/wmfs/pg-info/commit/662aa828073815c7dade0fb5bd1617a726083e69))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** CircleCI update next gen PostgreSQL image [sc-11442] ([554d18d](https://github.com/wmfs/pg-info/commit/554d18dad04e1dd7de3be906cb84c69311ec3b14))
+* **circle:** CircleCI update PostgreSQL image to 15 0 [sc-18659] ([b2a8450](https://github.com/wmfs/pg-info/commit/b2a84502b26a53e93881558bc4640bf941cc18a1))
+* **circle:** update postgres to 15.1-postgis ([192ecb9](https://github.com/wmfs/pg-info/commit/192ecb91e42306216e255b2c92ac914cb9a637f3))
+* **circle:** update postgres to 15.2-postgis [sc-19693] ([916f25d](https://github.com/wmfs/pg-info/commit/916f25d537f5e11162bf9815ca866e73ee73f167))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([fb3cc1e](https://github.com/wmfs/pg-info/commit/fb3cc1e5910e7032617a0c6f0f00f19e03a421b0))
+
 # [1.19.0](https://github.com/wmfs/pg-info/compare/v1.18.0...v1.19.0) (2020-11-11)
 
 
