@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/wmfs/pg-info/compare/v1.20.0...v1.20.1) (2024-01-09)
+
+
+### Bug Fixes
+
+* check we have the client before using, return if not [sc-20986] ([205cbe9](https://github.com/wmfs/pg-info/commit/205cbe931348a2eaac7a1bb422647b9315184103))
+
 # [1.20.0](https://github.com/wmfs/pg-info/compare/v1.19.0...v1.20.0) (2023-06-03)
 
 
